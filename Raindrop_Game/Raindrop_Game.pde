@@ -1,5 +1,5 @@
 Raindrops[]drizzle= new Raindrops[60];
-Catcher bucket;
+Catcher vac;
 int score;
 int sd;
 int index=1;
@@ -19,7 +19,7 @@ void setup() {
   for (int i=0;i<drizzle.length;i++) {
     drizzle[i]=new Raindrops();
   }
-  bucket= new Catcher();
+  vac= new Catcher();
 }
 
 
@@ -61,9 +61,9 @@ void draw() {
       drizzle[i].display();
       drizzle[i].move();
 
-      bucket.catchDrop(drizzle[i]);
+      vac.catchDrop(drizzle[i]);
     }
-    bucket.display();
+    vac.display();
 
     ////HELP : timer not stopping
     if (millis()/1000>=60) {

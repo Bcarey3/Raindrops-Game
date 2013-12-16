@@ -1,16 +1,18 @@
-
+PImage vacuum;
 class Catcher {
   int d;
   PVector loc;
   Catcher() {
     d=60;
     loc= new PVector (width/2, height/2);
+    vacuum= loadImage("Vacuum.jpg");
   }
 
   void display() {
     fill (100, 255, 60);
     loc.set(mouseX, mouseY);
-    ellipse  (mouseX, mouseY, d, d );
+    image(vacuum, mouseX, mouseY, d, d);
+     ellipse (mouseX, mouseY, d, d );
   }
 
 
