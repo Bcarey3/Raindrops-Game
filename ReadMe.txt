@@ -11,11 +11,10 @@ For every raindrop that is not caught, the player's score decreases by 5 points.
 Steps for making the game
 ==========================
 *Create an array of raindrops
-*Create Catcher
-*Make raindrops and Catcher interact
-*Create Start screen
-*Create Game over (STop) screen
-
+*Create catcher
+*Make raindrops and catcher interact
+*Create start screen
+*Create game over (stop) screen
 *Increase score when raindrop is caught
-*Decrease Score when raindrop is not caught and the raindrop disappears form the sceen
+*Decrease score when raindrop is not caught
 
