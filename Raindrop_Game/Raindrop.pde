@@ -4,13 +4,12 @@ class Raindrops {
   color c;
   PVector loc, acc, vel;
 
-  //constructor
   Raindrops() {
 
-    d=50;
+    d=10;
     c=color (254, 255, 18);
     loc= new PVector (random(width), 0);
-    vel= new PVector(random(0, 5), random (5, 9) );
+    vel= new PVector(random(0, 5), random (5, 15) );
   }
 
   void display() {
