@@ -13,7 +13,7 @@ Steps for making the game
 *Create an array of raindrops
 *Create catcher
 *Make raindrops and catcher interact
-*Insert timer
+*Insert timer that releases one raindrop per second
 *Create start screen
 *Create game over (stop) screen
 *Increase score when raindrop is caught
