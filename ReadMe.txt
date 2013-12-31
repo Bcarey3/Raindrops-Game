@@ -3,8 +3,8 @@ Raindrops Game
 The objective of the game is to catch falling raindrops with the catcher in order to increase a player's score. 
 The player has 60 seconds to catch as many raindrops as he or she can.
 
-Raindrops fall individually based on a timer. For every one second that passes, a raindrop is released. 
-If raindrop is not caught by the catcher, the raindrop disappears at the bottom of the screen.
+Raindrops fall individually based on a timer. For every one second that passes, one raindrop is released. 
+If a raindrop is not caught by the catcher, the raindrop disappears.
 For every raindrop that is caught, the player's score increases by 3 points.
 For every raindrop that is not caught, the player's score decreases by 5 points.
 
