@@ -19,3 +19,5 @@ Steps for making the game
 *Increase score when raindrop is caught
 *Decrease score when raindrop is not caught
 
+***Check issues for bugs/glitches
+
