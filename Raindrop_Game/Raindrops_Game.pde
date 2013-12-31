@@ -6,10 +6,10 @@ int sd;
 int index=1;
 boolean start= false;
 boolean end= false;
-int bgchange=0;
 int sec=0;
+int currtime=0;
 int oldtime=0;
-int cake=1000;
+int limit=1000;
 
 void setup() {
 
@@ -26,8 +26,8 @@ void draw() {
 
   background (0);
 
-  bgchange=sec-oldtime;
-  if (millis()-oldtime>=cake) {
+  sec=currtime-oldtime;
+  if (millis()-oldtime>=limit) {
     oldtime=millis();
     index+=1;
   }
