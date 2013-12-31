@@ -9,7 +9,7 @@ class Raindrops {
     d=10;
     c=color (254, 255, 18);
     loc= new PVector (random(width), 0);
-    vel= new PVector(random(0, 5), random (5, 15) );
+    vel= new PVector(random(0, 0), random (5, 15) );
   }
 
   void display() {
