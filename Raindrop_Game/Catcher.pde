@@ -12,7 +12,7 @@ class Catcher {
     fill (100, 255, 60);
     loc.set(mouseX, mouseY);
     image(vacuum, mouseX, mouseY, d, d);
-     ellipse (mouseX, mouseY, d, d );
+ellipse (mouseX, mouseY, d, d );
   }
 
 
